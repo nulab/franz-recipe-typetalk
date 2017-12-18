@@ -10,6 +10,6 @@
     "serviceURL": "https://typetalk.com",
     "hasNotificationSound": true,
     "hasIndirectMessages": true,
-    "hasTeamID": false
+    "hasTeamId": false
   }
 }
