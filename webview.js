@@ -14,7 +14,7 @@ module.exports = (Franz) => {
   };
 
   const getUnreads = () => {
-    const sidebarItems = document.getElementsByClassName(".sidebar__item");
+    const sidebarItems = document.getElementsByClassName("sidebar__item");
     const indirectMessages = hasUnreads(sidebarItems, topicsIndex) + hasUnreads(sidebarItems, likesActivitiesIndex);
     const directMessages = hasUnreads(sidebarItems, dmIndex) + hasUnreads(sidebarItems, notificationsIndex);
 
